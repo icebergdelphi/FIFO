@@ -12,7 +12,7 @@ console.log("*******************************************************************
 console.log("**************************************FIFO The Inventory Manager*************************************");
 console.log("*************************************************************************************************");
 console.log();
-console.log("**********************Choise an Option***************************");
+console.log("**********************Choose an Option***************************");
 console.log("1.Type 'start' To Run The Inventory");
 console.log("2.-Type 'exit' to Close the APP");
 console.log();
