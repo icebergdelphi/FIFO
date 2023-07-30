@@ -20,11 +20,11 @@ console.log();
 rl.on('line', (input) => {
   if (input === 'start') {  
     const result = allocate(salesOrders, purchaseOrders);
-    console.log("Resultado de la asignación:");
+    console.log("Allocate results:");
     console.log(result);
   } else if (input === 'exit') {
     rl.close();
   } else {
-    console.log("Comando no válido. Digite 'start' para iniciar o 'exit' para salir.");
+    console.log("Invalid Command. Input 'start' To RUN the APP or 'exit' to Close All.");
   }
 });
