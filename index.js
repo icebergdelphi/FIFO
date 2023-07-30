@@ -8,9 +8,14 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log("Bienvenido a la aplicación de asignación de productos.");
-console.log("Digite 'start' para iniciar o 'exit' para salir.");
-
+console.log("*************************************************************************************************");
+console.log("**************************************FIFO The Inventory Manager*************************************");
+console.log("*************************************************************************************************");
+console.log();
+console.log("**********************Choise an Option***************************");
+console.log("1.Type 'start' To Run The Inventory");
+console.log("2.-Type 'exit' to Close the APP");
+console.log();
 
 rl.on('line', (input) => {
   if (input === 'start') {  
