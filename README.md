@@ -2,6 +2,19 @@
 1.- To RUN:
  node index
 
+ Result:
+ Allocate results:
+[
+  { id: 'S3', availabilityDate: '2020-01-04' },
+  { id: 'S5', availabilityDate: '2020-02-01' },
+  { id: 'S1', availabilityDate: '2020-02-20' },
+  { id: 'S4', availabilityDate: '2020-03-05' },
+  {
+    id: 'S2',
+    availabilityDate: 'Insufficient stock to fulfill the sale, need more purchases'
+  }
+]
+
 2.-To Test, Please Install:
 npm install jest --save-dev
 
