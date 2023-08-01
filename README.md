@@ -1,5 +1,8 @@
 # FIFO
-To Test, Please Install:
+1.- To RUN:
+ node index
+
+2.-To Test, Please Install:
 npm install jest --save-dev
 
 Then: npx jest index.test
