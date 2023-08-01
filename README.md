@@ -4,6 +4,7 @@
 
  Result:
  Allocate results:
+ ```yaml
 [
   { id: 'S3', availabilityDate: '2020-01-04' },
   { id: 'S5', availabilityDate: '2020-02-01' },
