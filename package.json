@@ -12,5 +12,8 @@
   "devDependencies": {
     "jest": "^29.6.2",
     "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }
